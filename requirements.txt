@@ -1,0 +1,5 @@
+numpy
+pandas
+pyrebase4
+streamlit
+plost
