@@ -146,7 +146,7 @@ with people_tab:
 
     current_people = np.array(human_count['People'])
 
-    if current_people[-1] < 7:
+    if current_people[-1] <= 7:
         st.success(f'Mật độ: bình thường')
     # elif <điều kiện>:
     #     câu lệnh .... 
