@@ -154,7 +154,7 @@ with people_tab:
         st.success(f'Mật độ: khá đông')
     elif current_people[-1] < 17:
         st.success(f'Mật độ: đông') 
-        st.error(f'Mật độ: rất đông
+        st.error(f'Mật độ: rất đông')
 
 
 
