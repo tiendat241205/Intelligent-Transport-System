@@ -137,13 +137,9 @@ about_tab, people_tab= st.tabs(["About the Project", "👥People count"])
 #### Tab giới thiệu
 with about_tab:
     st.header("Project")
-    diagram = st.image('mohinh.jpg', caption='Diagram')
+    Mohinh= st.image('mohinh.jpg', caption = 'Architecture')
     st.subheader("Giới thiệu")
-    st.text('''Đề tài Hệ thống giao thông thông minh (Intelligent Transport System – ITs) chú trọng nghiên cứu khai thác chức năng của đèn giao thông để đưa ra giải pháp cho vấn đề UTGT.
-Bởi lẽ, đèn giao thông là một thiết được dung để điều khiển giao thông ở những giao lộ có lượng phương tiện lưu thông lớn, là một trong những thiết bị quan trọng không những đảm bảo an toàn cho các phương tiện tham gia giao thông mà còn giúp giảm ùn tắc giao thông vào giờ cao điểm.
-Việc điều chỉnh thời gian đèn giao thông ngay tùy theo mức độ lưu lượng phương tiện ngay tại thời điểm UTGT sẽ có hiệu quả hơn các giải pháp phân bổ lại thời gian đèn trước đó.''')
-
-
+    Gioithieu = st.image('giới thiệu.jpg', caption='Giới thiệu về dự án')
 
 # Tab số liệu 
 with people_tab:
