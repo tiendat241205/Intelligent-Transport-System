@@ -146,12 +146,15 @@ with people_tab:
 
     current_people = np.array(human_count['People'])
 
-    if current_people[-1] < 5:
-        st.success(f'Mật độ thấp')
+    if current_people[-1] < 7:
+        st.success(f'Mật độ: bình thường')
     # elif <điều kiện>:
     #     câu lệnh .... 
-    else:
-        st.error(f'Mật độ cao')
+    elif current_people[-1] < 12:
+        st.success(f'Mật độ: khá đông')
+    elif current_people[-1] < 17:
+        st.success(f'Mật độ: đông') 
+        st.error(f'Mật độ: rất đông
 
 
 
