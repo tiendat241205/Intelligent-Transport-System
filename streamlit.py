@@ -132,7 +132,7 @@ with st.sidebar:
 
 
 
-about_tab, people_tab= st.tabs(["About the Project", "👥People count"])
+about_tab, people_tab= st.tabs(["About the Project", "Mật độ giao thông"])
 
 #### Tab giới thiệu
 with about_tab:
