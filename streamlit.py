@@ -84,11 +84,11 @@ def convert_df(df):
      return df.to_csv().encode('utf-8')
 
 # Create a text element and let the reader know the data is loading.
-data_load_state = st.text('Loading data...')
+data_load_state = st.text('Đang cập nhật dữ liệu')
 human_count = load_data()
 
 # Notify the reader that the data was successfully loaded.
-data_load_state.text('Loading data...done!')
+data_load_state.text('Cập nhật dữ liệu thành công!')
 
 
 #### Make output dir
