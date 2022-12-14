@@ -201,4 +201,4 @@ with people_tab:
 
 # https://plost.streamlitapp.com/
 # https://github.com/Socvest/streamlit-on-Hover-tabs
-# https://github.com/PablocFonseca/streamlit-aggrid
+# https://github.com/PablocFonseca/streamlit-aggrida
