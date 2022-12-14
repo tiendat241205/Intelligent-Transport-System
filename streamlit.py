@@ -140,8 +140,7 @@ with about_tab:
     Mohinh= st.image('mohinh.jpg', caption = 'Architecture')
     st.subheader("Giới thiệu")
     Gioithieu = st.image('giới thiệu.jpg', caption='Giới thiệu về dự án')
-    st.subheader("")
-    Matdo =  st.image('.jpg', caption = '')
+    
     
     
     
