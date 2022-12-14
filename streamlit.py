@@ -88,7 +88,7 @@ data_load_state = st.text('Loading data....')
 human_count = load_data()
 
 # Notify the reader that the data was successfully loaded.
-data_load_state.text('Cập nhật dữ liệu thành công')
+data_load_state.text('Loading data .... Done!')
 
 
 #### Make output dir
