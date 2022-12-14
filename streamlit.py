@@ -84,7 +84,7 @@ def convert_df(df):
      return df.to_csv().encode('utf-8')
 
 # Create a text element and let the reader know the data is loading.
-data_load_state = st.text('Đang tải dữ liệu')
+data_load_state = st.text('Loading data....')
 human_count = load_data()
 
 # Notify the reader that the data was successfully loaded.
@@ -126,7 +126,7 @@ with st.sidebar:
         st.success("Already export data to JSON!")
     st.json(json_data, expanded=False)
     ### Message
-    with st.spinner("Đang tải"):
+    with st.spinner("Loading..."):
         time.sleep(1)
     
 
