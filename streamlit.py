@@ -141,7 +141,15 @@ with about_tab:
     st.subheader("Giới thiệu")
     gioithieu = st.image('giới thiệu.jpg', caption='Giới thiệu về dự án')
     st.subheader("Hệ thống Its")
-    hethongits = st.image('hethong.png', caption='Các phần hệ thống Its')
+    st.caption("Hệ thống ITs gồm 2 phần:
+-	Hệ thống điều khiển đèn giao thông:
++ Bộ phận cảm biến đám đông (Crowd Sensor Unit)
++ Bộ phận xử lí (Processing Unit)
++ Bộ phận điều khiển (Controlling Unit)
+-	Website cảnh báo giao thông thông minh (Intelligent Transport Alert – ITA) 
+Dự án Hệ thống giao thông thông minh (Intelligent Transport System – ITs) để sử dụng trên thực tế (điều khiển thời gian của đèn giao thông) giúp quá trình điều chỉnh hệ thống giao thông trở nên dễ dàng hơn. Đèn giao thông sẽ được tự động điều chỉnh theo mức độ ùn tắt giao thông cho phù hợp đặc biệt là những lúc bách cấp cũng như giúp phần nào trong quá trình điều tiết giao thông của bộ phận CSGT. 
+")
+            
     st.subheader("Phân chia mức độ")
     chiamucdo = st.image('chiamucdo.jpg', caption='Phân chia mức độ')
 
