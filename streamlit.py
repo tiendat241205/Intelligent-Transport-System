@@ -150,8 +150,7 @@ st.caption("-	Website cảnh báo giao thông thông minh (Intelligent Transport
 st.caption("Dự án Hệ thống giao thông thông minh (Intelligent Transport System – ITs) để sử dụng trên thực tế ")
 st.caption("điều khiển thời gian của đèn giao thông) giúp quá trình điều chỉnh hệ thống giao thông trở nên dễ dàng hơn.")
 st.caption(" Đèn giao thông sẽ được tự động điều chỉnh theo mức độ ùn tắt giao thông cho phù hợp đặc biệt là những lúc bách cấp")
-st.caption(" cũng như giúp phần nào trong quá trình điều tiết giao thông của bộ phận CSGT. ")
-            
+st.caption(" cũng như giúp phần nào trong quá trình điều tiết giao thông của bộ phận CSGT. ")            
     st.subheader("Phân chia mức độ")
     chiamucdo = st.image('chiamucdo.jpg', caption='Phân chia mức độ')
 
