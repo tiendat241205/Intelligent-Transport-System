@@ -141,7 +141,7 @@ with about_tab:
     st.subheader("Giới thiệu")
     gioithieu = st.image('giới thiệu.jpg', caption='Giới thiệu về dự án')
     st.subheader("Hệ thống Its")
-    hethongits = st.image('hethong.jpg', caption='Các phần hệ thống Its')
+    hethongits = st.image('hethong.png', caption='Các phần hệ thống Its')
     st.subheader("Phân chia mức độ")
     chiamucdo = st.image('chiamucdo.jpg', caption='Phân chia mức độ')
 
