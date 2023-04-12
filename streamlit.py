@@ -143,15 +143,10 @@ with about_tab:
     st.subheader("Hệ thống Its")
     st.caption("Hệ thống ITs gồm 2 phần:")
     st.caption("-	Hệ thống điều khiển đèn giao thông:")
-    st.caption("+ Bộ phận cảm biến đám đông (Crowd Sensor Unit)")
-    st.caption("+ Bộ phận xử lí (Processing Unit)")
-    st.caption("+ Bộ phận điều khiển (Controlling Unit)")
+    st.caption(" + Bộ phận cảm biến đám đông (Crowd Sensor Unit)")
+    st.caption(" + Bộ phận xử lí (Processing Unit)")
+    st.caption(" + Bộ phận điều khiển (Controlling Unit)")
     st.caption("-	Website cảnh báo giao thông thông minh (Intelligent Transport Alert – ITA) ")
-    st.caption("Dự án Hệ thống giao thông thông minh (Intelligent Transport System – ITs) để sử dụng trên thực tế ")
-    st.caption("điều khiển thời gian của đèn giao thông) giúp quá trình điều chỉnh hệ thống giao thông trở nên dễ dàng hơn.")
-    st.caption(" Đèn giao thông sẽ được tự động điều chỉnh theo mức độ ùn tắt giao thông cho phù hợp đặc biệt là những lúc bách cấp")
-    st.caption(" cũng như giúp phần nào trong quá trình điều tiết giao thông của bộ phận CSGT. ")            
-    st.subheader("Phân chia mức độ")
     chiamucdo = st.image('chiamucdo.jpg', caption='Phân chia mức độ')
 
 
