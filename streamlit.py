@@ -140,7 +140,7 @@ with about_tab:
     mohinh = st.image('mohinh.jpg', caption='Architecture')
     st.subheader("Giới thiệu")
     gioithieu = st.image('giới thiệu.jpg', caption='Giới thiệu về dự án')
-    st.subheader("Hệ thống Its")
+    st.subheader("Hệ thống ITs")
     st.caption("Hệ thống ITs gồm 2 phần:")
     st.caption("-	Hệ thống điều khiển đèn giao thông:")
     st.caption("  📌 Bộ phận cảm biến đám đông (Crowd Sensor Unit)")
