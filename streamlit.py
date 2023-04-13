@@ -147,7 +147,6 @@ with about_tab:
     st.caption("      📌 Bộ phận xử lí (Processing Unit)")
     st.caption("      📌 Bộ phận điều khiển (Controlling Unit)")
     st.caption("-	Website cảnh báo giao thông thông minh (Intelligent Transport Alert – ITA) ")
-    st.header("Bảng phân chia mức độ")
     chiamucdo = st.image('chiamucdo.jpg', caption='Phân chia mức độ')
 
 
